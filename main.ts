@@ -12,6 +12,6 @@ namespace trial {
 
     //%block
     export function showNumber(value: number): void {
-        
+        basic.showNumber(value);
     }
 }
