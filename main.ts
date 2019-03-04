@@ -10,8 +10,8 @@ namespace trial {
         pins.servoWritePin(AnalogPin.P2, 180);
     }
 
-    //%block="showNumber"
+    //%block
     export function showNumber(value: number): void {
-        
+        basic.showNumber(value);
     }
 }
