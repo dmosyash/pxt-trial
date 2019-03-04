@@ -1,4 +1,3 @@
-
 namespace trial {
 
     /**
@@ -13,6 +12,6 @@ namespace trial {
 
     //%block="showNumber"
     export function showNumber(value: number): void {
-        basic.showNumber(value);
+        
     }
 }
